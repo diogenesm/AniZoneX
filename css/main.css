@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
+@import url("https://fonts.googleapis.com/css?family=Patrick+Hand");
+@import url("_animes.css");
+
+/* --- CORPO --- */
+body{
+    font-family: "Roboto", sans-serif;
+    margin: auto;
+    background-image: url("../imgs/background.jpg") ;
+}
+ /* --- BANNER --- */
+div.banner{
+    text-align: center;
+    opacity: 0.5;
+}
+
+/* --- MENU --- */
+.menu-titulo img{
+    width: 220px;
+}
+
+div.botoes{
+    margin: auto;
+    width: 1024px;
+    height: 60px;
+    background-color: rgb(58, 58, 58);
+    display: flex;
+    float: center;
+}
+
+.botoes ul{
+    margin: auto;
+    list-style: none;
+    font-size: 1.2rem;
+    display: flex;
+}
+
+a.botoes-menu{
+    text-decoration: none;
+    color: white;
+    padding: 18px 30px;
+}
+a.botoes-menu:hover{
+    background-color: #acacac;
+    color: white;
+}
+
+/* --- PESQUISA --- */
+div.search-bar{
+    width: 1024px;
+    height: 60px;
+    margin: 5px auto;
+    background-color: rgb(58, 58, 58);
+    height: 60px;
+}
+
+div form input#s{
+    font-family: "Open Sans Condensed", sans-serif;
+    border: none;
+    width: 350px;
+    height: 20px;
+    background-color: rgb(71, 71, 71);
+    font-size: 1.0rem;
+    outline: none;
+    margin: auto;
+    cursor: text;
+    color: #acacac;
+    padding: 20px;
+}
+div.search-bar form button{
+    background-color: transparent;
+    border: none;
+}
+
+/* --- RECENTES --- */
+section.container{
+    width: 1024px;
+    background-color: rgb(58, 58, 58);
+    margin: auto;
+}
+section.container div.container-recentes{
+    padding: 10px;
+}
+
+section.container div.sessao-recentes{
+    background-color: #004539;
+    width: 512px;
+    height: 60px;
+}
+
+section.container div.sessao-recentes button{
+    font-family: "Patrick Hand", cursive;
+    font-size: 1.2rem;
+    background-color: #003745;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    float: right;
+    color: white;
+    margin-top: 10px;
+    margin-right: 10px;
+    outline: none;
+    cursor: pointer;
+}
+section.container div.sessao-recentes p{
+    font-family: "Patrick Hand", cursive;
+    color: white;
+    font-size: 1.2rem;
+    padding: 15px;
+    margin: 0;
+}
+
+div.container-recentes .miniaturas{
+    margin: auto;
+    text-align: center;
+}
+
+div.container-recentes figure{
+    display: inline-block;
+    margin: 20px 10px;
+}
+div.container-recentes figure img{
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+div.container-recentes figure figcaption{
+    color: white;
+    font-family: "Patrick Hand", cursive;
+}
+div.container-recentes figure a{
+    text-decoration: none;
+}
+
+/* --- POPULARES --- */
+section.container div.container-populares{
+    padding: 10px;
+}
+
+div.container-populares .sessao-populares{
+    background-color: #004539;
+    width: 512px;
+    height: 60px;
+}
+div.container-populares .sessao-populares a{
+    text-decoration: none;
+    color: white;
+}
+
+section.container div.sessao-populares button{
+    font-family: "Patrick Hand", cursive;
+    font-size: 1.2rem;
+    background-color: #003745;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    float: right;
+    color: white;
+    margin-top: 10px;
+    margin-right: 10px;
+    outline: none;
+    cursor: pointer;
+}
+div.container-populares .sessao-populares p{
+    color: white;
+    font-family: "Patrick Hand", cursive;
+    font-size: 1.2rem;
+    padding: 20px;
+}
+
+div.populares figure{
+    margin: 20px auto;
+}
+
+figure.miniatura-populares img{
+    width: 150px;
+    height: 200px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+div.populares{
+    font-family: "Patrick Hand", cursive;
+    text-align: center;
+    display: flex;
+    margin: auto;
+}
+div.populares a{
+    text-decoration: none;
+    color: white;
+}
+
+/* --- COPYRIGHT --- */
+.copy{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
