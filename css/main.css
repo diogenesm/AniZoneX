@@ -112,7 +112,7 @@ section.container div.sessao-recentes p{
 }
 
 div.container-recentes .miniaturas{
-    margin: auto;
+    margin: 100px auto 0 auto;
     text-align: center;
 }
 
@@ -131,6 +131,11 @@ div.container-recentes figure figcaption{
 }
 div.container-recentes figure a{
     text-decoration: none;
+}
+
+div.sessao-recentes button a{
+    text-decoration: none;
+    color: white;
 }
 
 /* --- POPULARES --- */
